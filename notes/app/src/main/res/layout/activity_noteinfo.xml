@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/white"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:id="@+id/llnote"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/background"
+        android:layout_margin="5pt"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/opTitle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:fontFamily="serif"
+            android:gravity="center"
+            android:text="1st"
+            android:textSize="35dp" />
+
+        <TextView
+            android:id="@+id/opDes"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:layout_marginEnd="10dp"
+            android:layout_marginTop="100dp"
+            android:lineSpacingExtra="7dp"
+            android:fontFamily="serif"
+            android:gravity="center"
+            android:text="i don't know"
+            android:textSize="30dp"/>
+
+
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Keep Notes</string>
+    <string name="Title">Title</string>
+    <string name="Description">Descrioption</string>
+    <string name="name">Name</string>
+    <string name="TypeHere">Type Here!</string>
+    <string name="addnote">Add Note</string>
+</resources>

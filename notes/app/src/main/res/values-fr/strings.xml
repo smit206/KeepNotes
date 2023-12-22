@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Garder des notes</string>
+    <string name="Title">Titre</string>
+    <string name="Description">Description</string>
+    <string name="name">Nom</string>
+    <string name="TypeHere">Écrivez ici!</string>
+    <string name="addnote">Ajouter une note</string>
+
+</resources>

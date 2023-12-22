@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/white"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:id="@+id/llnote"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/background"
+        android:layout_margin="5pt"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/tvTitle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="2pt"
+            android:fontFamily="serif"
+            android:text="@string/Title"
+            android:textSize="24dp" />
+
+        <TextView
+            android:id="@+id/tvDes"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="3pt"
+            android:layout_marginTop="2dp"
+            android:fontFamily="serif"
+            android:text="@string/Description"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+
+            <ImageButton
+                android:id="@+id/ibEdit"
+                android:src="@drawable/edit"
+                android:layout_width="35pt"
+                android:layout_height="20pt"
+                android:background="@drawable/background"
+                android:layout_margin="2pt"/>
+
+            <ImageButton
+                android:id="@+id/ibDelete"
+                android:src="@drawable/delete"
+                android:layout_width="35pt"
+                android:layout_height="20pt"
+                android:background="@drawable/background"
+                android:layout_margin="2pt" />
+
+
+
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>
